@@ -17,6 +17,6 @@ class HomeController extends Controller {
      * @Route("/", name="home")
      */
     public function homeAction() {
-        die("toto");
+        return $this->render('home.html.twig');
     }
 } 
